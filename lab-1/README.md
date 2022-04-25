@@ -64,4 +64,8 @@ df.write.format("csv").mode("overwrite").save("gs://{}/output/".format(BUCKET))
 - To create a bash file for script to kick off
 ```
 nano submit_onejob.sh
+
+chmod +x submit_onejob.sh
+
+./submit_onejob.sh $PROJECT_ID
 ```
